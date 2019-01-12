@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        .cl{
+            height: 100%;
+            width: 100%;
+        }
         *{
             margin: 0;
             padding: 0;
@@ -13,7 +17,7 @@
             border-left: 1px solid white;
         }
         .wai{
-                height: 40px;
+            height: 40px;
             background-color:#1976D2;
 
 
@@ -34,7 +38,8 @@
 
             border-radius: 20px;
             display: inline-block;
-            margin-left: 380px;
+            position: relative;
+            left: 390px;
 
 
 
@@ -49,11 +54,14 @@
             display: inline-block;
             color: white;
             border-radius: 20px 20px 20px 20px;
+            position: relative;
+            left: 790px;
 
         }
 
         .one{
-            margin: 2px 0 0 20%;
+            display: inline-block;
+            margin: 0 0 0 20%;
             height: 260px;
             width: 200px;
         }
@@ -81,39 +89,49 @@
         .f{
             position: relative;
             left: 20px;
-        }
-        .f{
-            height: 30px;
-            line-height: 30px;
-
+            top: -13px;
+            color: gray;
         }
         .s{
+
             position: relative;
             left: 100px;
-            top: -52px;
+            top: -55px;
+            color: #757575;
+        }
+        .bo{
+            border: 1px solid red;
+        }
+        .two{
+            height: 500px;
+            width: 600px;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
-    <div class="wai border">
-        <div class="h">Home</div>
-        <div class="h border">Profile</div>
-        <div class="h border">Messages</div>
-        <div class="h border">Settings</div>
-        <div class="sc"><input type="text" class="sc"></div>
-        <div class="se">Search</div>
-    </div>
-<div class="one ">
-    <div class="img "></div>
-    <div class="name">Neusoft</div>
-    <div class="text ">Welcome to  neusoft,learn Java and H5 form Neusoft</div>
-    <div class="number">
-        <div class="f">Friend</div>
-        <div class="f">29</div>
-        <p class="s">Star</p>
-        <p class="s">17</p>
-    </div>
-</div>
+  <div class="cl">
+      <div class="wai border">
+          <div class="h">Home</div>
+          <div class="h border">Profile</div>
+          <div class="h border">Messages</div>
+          <div class="h border">Settings</div>
+          <div class="sc"><input type="text" class="sc"></div>
+          <div class="se">Search</div>
+      </div>
+      <div class="one ">
+          <div class="img "></div>
+          <div class="name">Neusoft</div>
+          <div class="text ">Welcome to  neusoft,learn Java and H5 form Neusoft</div>
+          <div class="number">
+              <div class="f">Friend</div>
+              <div class="f">29</div>
+              <div class="s">Star</div>
+              <div class="s">17</div>
 
+          </div>
+      </div>
+      <div class="two bo"></div>
+  </div>
 </body>
 </html>
