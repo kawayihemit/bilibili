@@ -7,20 +7,22 @@
         *{
             margin: 0;
             padding: 0;
+            font-family: 微软雅黑;
         }
         .border{
-            border: 1px solid white;
+            border-left: 1px solid white;
         }
         .wai{
                 height: 40px;
             background-color:#1976D2;
+
 
         }
         .h{
             height: 40px;
             width: 70px;
             color: white;
-            line-height: 30px;
+            line-height: 40px;
             text-align: center;
             display: inline-block;
             font-size: 14px;
@@ -29,21 +31,58 @@
         }
 
         .sc{
-            height: 40px;
-            width: 90px;
-            border-radius: 30px 30px 30px 30px;
+
+            border-radius: 20px;
             display: inline-block;
+            margin-left: 380px;
+
+
+
         }
         .se{
-            margin: 5px 0 0 62.5%;
-            height: 30px;
+
+            height: 20px;
             width: 70px;
             background-color: #4FC3F7;
-            line-height: 30px;
+            line-height: 20px;
             text-align: center;
             display: inline-block;
             color: white;
             border-radius: 20px 20px 20px 20px;
+
+        }
+        .bo{
+            border: 1px solid red;
+        }
+        .one{
+            height: 260px;
+            width: 200px;
+        }
+        .img{
+            height:60px ;
+            background-image: url(../img/benz-amg-s63-01.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .name{
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+        }
+        .text{
+            heigth:60;
+            font-size: 15px;
+            color: gray;
+            font-weight: 200;
+        }
+        .f{
+            position: relative;
+            left: 20px;
+        }
+        .s{
+            position: relative;
+            left: 50px;
 
         }
     </style>
@@ -54,9 +93,19 @@
         <div class="h border">Profile</div>
         <div class="h border">Messages</div>
         <div class="h border">Settings</div>
-        <div class="sc"><input type="text"></div>
+        <div class="sc"><input type="text" class="sc"></div>
         <div class="se">Search</div>
     </div>
+<div class="one bo">
+    <div class="img "></div>
+    <div class="name">Neusoft</div>
+    <div class="text ">Welcome to  neusoft,learn Java and H5 form Neusoft</div>
+    <div class="number bo">
+        <p class="f">Friend</p>
+        <p class="f">29</p>
+        <p>Star</p>
+    </div>
+</div>
 
 </body>
 </html>
