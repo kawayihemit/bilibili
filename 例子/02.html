@@ -7,6 +7,8 @@
         .cl{
             height: 100%;
             width: 100%;
+            background-color: white;
+            position: fixed;
         }
         *{
             margin: 0;
@@ -61,12 +63,15 @@
 
         .one{
             display: inline-block;
-            margin: 0 0 0 20%;
+            margin: 5px 0 0 300px;
             height: 260px;
             width: 200px;
+            position: relative;
+
+            box-shadow: 3px 3px 5px gray;
         }
         .img{
-            height:60px ;
+            height:70px ;
             background-image: url(../img/benz-amg-s63-01.jpg);
             background-size: cover;
             background-position: center;
@@ -102,15 +107,48 @@
         .bo{
             border: 1px solid red;
         }
-        .two{
-            height: 500px;
-            width: 600px;
-            display: inline-block;
+        .le{
+            height: 100%;
+            width: 100%;
+            position: revert;
         }
+        .two{
+            margin: 100px 0 0 10px;
+           height: 600px;
+            width: 400px;
+            display: inline-block;
+            position: absolute;
+            top: -50px;
+
+        }
+        .en{
+            padding: 10px 0 0 10px;
+            height: 100px;
+            width: 380px;
+            position: revert;
+            top: 100px;
+        }
+        .imput{
+            height: 80px;
+            width: 360px;
+            border-radius: 10px 10px 10px 10px ;
+        }
+        .biao{
+            margin-top: 5px;
+            height: 30px;
+            width: 390px;
+        }
+        .cen{
+            margin-top: 5px;
+            height: 400px;
+            width: 390px;
+            border-radius: 5px 5px 5px 5px;
+        }
+
     </style>
 </head>
 <body>
-  <div class="cl">
+  <div class="cl ">
       <div class="wai border">
           <div class="h">Home</div>
           <div class="h border">Profile</div>
@@ -119,19 +157,29 @@
           <div class="sc"><input type="text" class="sc"></div>
           <div class="se">Search</div>
       </div>
-      <div class="one ">
-          <div class="img "></div>
-          <div class="name">Neusoft</div>
-          <div class="text ">Welcome to  neusoft,learn Java and H5 form Neusoft</div>
-          <div class="number">
-              <div class="f">Friend</div>
-              <div class="f">29</div>
-              <div class="s">Star</div>
-              <div class="s">17</div>
 
-          </div>
-      </div>
-      <div class="two bo"></div>
+        <div class="le bo">
+
+            <div class="one ">
+                <div class="img "></div>
+                <div class="name">Neusoft</div>
+                <div class="text ">Welcome to  neusoft,learn Java and H5 form Neusoft</div>
+                <div class="number">
+                    <div class="f">Friend</div>
+                    <div class="f">29</div>
+                    <div class="s">Star</div>
+                    <div class="s">17</div>
+
+                </div>
+            </div>
+            <div class="two bo">
+                <div class="en bo"><input type="text" class="imput"></div>
+                <div class="biao bo"></div>
+                <div class="cen bo"></div>
+            </div>
+        </div>
+
+
   </div>
 </body>
 </html>
