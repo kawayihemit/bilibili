@@ -63,12 +63,11 @@
 
         .one{
             display: inline-block;
-            margin: 5px 0 0 300px;
+            margin: 5px 0 0 200px;
             height: 260px;
             width: 200px;
             position: relative;
-
-            box-shadow: 3px 3px 5px gray;
+            border: 6px solid #EEEEEE;
         }
         .img{
             height:70px ;
@@ -88,21 +87,14 @@
             color: gray;
             font-weight: 200;
         }
-        .number{
-            margin-top: 20px;
-        }
-        .f{
-            position: relative;
-            left: 20px;
-            top: -13px;
-            color: gray;
-        }
-        .s{
 
-            position: relative;
-            left: 100px;
-            top: -55px;
-            color: #757575;
+        .f{
+            margin: 20px 0 0 10px;
+            height: 50px;
+            width: 80px;
+            color: gray;
+            text-align: center;
+            display: inline-block;
         }
         .bo{
             border: 1px solid red;
@@ -114,13 +106,13 @@
         }
         .two{
             margin: 100px 0 0 10px;
-           height: 600px;
+           height: 550px;
             width: 400px;
             display: inline-block;
             position: absolute;
            top: -60px;
             overflow: hidden;
-
+            border: 5px solid #EEEEEE;
         }
         .en{
             margin: 5px 0 0 10px;
@@ -160,7 +152,7 @@
         .send{
                 height: 30px;
                 width: 80px;
-            background-color: #039BE5;
+            background-color: #90CAF9;
             display: inline-block;
             line-height: 30px;
             text-align: center;
@@ -169,7 +161,7 @@
         }
         .zhao{margin-left: 140px}
         .tom{
-            height: 200px;
+            height: 150px;
             width: 380px;
             position: absolute;
 
@@ -181,14 +173,17 @@
             background-repeat: no-repeat;
             background-position: center;
             display:inline-block;
-            position: revert;
+            position: absolute;
 
         }
         .tom2{
-            height: 180px;
+            height: 140px;
             width: 320px;
             display: inline-block;
             background: #E0E0E0;
+            position: absolute;
+            left: 60px;
+            border-left: 2px solid #2196F3;
         }
         .t1{
             margin-left: 10px;
@@ -213,9 +208,50 @@
             color: #757575;
             font-size: 10px;
         }
+        .t4{
+            height: 20px;
+            width: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+        }
+        .t5{
+            margin: 70px 0 0 200px;
+        }
         .jerry{
-            height: 400px;
-            width: 380px;
+            height: 200px;
+            width: 390px;
+            position: absolute;
+            top: 320px;
+        }
+        .jer{
+            height: 200px;
+            width: 320px;
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            border-left: 2px solid #2196F3;
+        }
+        .jer1{
+            margin-left: 145px;
+            height: 20px;
+            width: 110px;
+            color: #757575;
+            display: inline-block;
+            font-size: 10px;
+        }
+        .jer2{
+            margin: 130px 0 0 200px;
+        }
+        .three{
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            position: absolute;
+            right: 320px;
+            border: 10px solid #EEEEEE;
+            font-size: 15px;
+            color: #9E9E9E;
         }
     </style>
 </head>
@@ -230,21 +266,16 @@
           <div class="se">Search</div>
       </div>
 
-        <div class="le bo">
+        <div class="le">
 
             <div class="one ">
                 <div class="img "></div>
                 <div class="name">Neusoft</div>
                 <div class="text ">Welcome to  neusoft,learn Java and H5 form Neusoft</div>
-                <div class="number">
-                    <div class="f">Friend</div>
-                    <div class="f">29</div>
-                    <div class="s">Star</div>
-                    <div class="s">17</div>
-
-                </div>
+                    <div class="f">Friend <br>29</div>
+                    <div class="f">Star <br>17</div>
             </div>
-            <div class="two bo">
+            <div class="two">
                 <div class="en">enter some message..</div>
                 <div class="biao ">
                     <div class="cama posi zhao" style=" background-image: url(../img/照相机.svg)"></div>
@@ -256,20 +287,37 @@
                     <br><hr>
                 </div>
 
-                <div class="cen bo">
-                    <div class="tom bo">
-                        <div class="tom1 bo"></div>
-                        <div class="tom2 bo">
-                            <div class="t1 bo">Tom</div>
-                            <div class="t2 bo">a mintute ago</div>
-                            <div class="t3 bo">Hello,everybody</div>
-                            <div></div>
+                <div class="cen ">
+                    <div class="tom ">
+                        <div class="tom1" style="background-image: url(../img/男孩.svg)"></div>
+                        <div class="tom2">
+                            <div class="t1 ">Tom</div>
+                            <div class="t2">a mintute ago</div>
+                            <div class="t3 ">Hello,everybody</div>
+                            <div class="t4 t5" style="background-image: url(../img/分享.svg)"></div>
+                            <div class="t4" style="background-image: url(../img/赞.svg)"></div>
+                            <div class="t4" style="background-image: url(../img/微信.svg)"></div>
+                            <div class="t4" style="background-image: url(../img/修改.svg)"></div>
+                            <div class="t4" style="background-image: url(../img/转发.svg)"></div>
                         </div>
                     </div>
-                    <div class="jerry bo"></div>
+                        <div class="jerry ">
+                            <div class="tom1"style="background-image: url(../img/女孩.svg)"></div>
+                            <div class="jer">
+                                <div class="t1 ">Jerry</div>
+                                <div class="jer1 ">2017-05-18 08:41</div>
+                                <div class="t3 ">Apache Spark is an  open-sourse....xxxxxx</div>
+                                <div class="t4 jer2" style="background-image: url(../img/分享.svg)"></div>
+                                <div class="t4" style="background-image: url(../img/赞.svg)"></div>
+                                <div class="t4" style="background-image: url(../img/微信.svg)"></div>
+                                <div class="t4" style="background-image: url(../img/修改.svg)"></div>
+                                <div class="t4" style="background-image: url(../img/转发.svg)"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            <div class="three">....自由发挥吧。。。</div>
             </div>
-
         </div>
 
 
