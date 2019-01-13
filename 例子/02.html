@@ -118,33 +118,55 @@
             width: 400px;
             display: inline-block;
             position: absolute;
-            top: -50px;
+           top: -60px;
 
         }
         .en{
-            padding: 10px 0 0 10px;
+            margin: 5px 0 0 10px;
             height: 100px;
             width: 380px;
-            position: revert;
-            top: 100px;
-        }
-        .imput{
-            height: 80px;
-            width: 360px;
-            border-radius: 10px 10px 10px 10px ;
-        }
-        .biao{
-            margin-top: 5px;
-            height: 30px;
-            width: 390px;
-        }
-        .cen{
-            margin-top: 5px;
-            height: 400px;
-            width: 390px;
-            border-radius: 5px 5px 5px 5px;
+            border-radius: 10px 10px 10px 10px;
+            color: gray;
+            text-indent: 10px;
+            box-shadow: 0 0 2px gray;
+
         }
 
+        .biao{
+            margin:  5px 0 0 5px;
+            height: 50px;
+            width: 390px;
+            position: absolute;
+            padding-bottom: 1px;
+        }
+        .cen{
+            margin-top: 70px;
+            height: 600px;
+            width: 390px;
+            border-radius: 5px 5px 5px 5px;
+            position: revert;
+            top: -10px;
+        }
+        .cama {
+            margin-top: 10px ;
+            height: 30px;
+            width: 30px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+        .send{
+                height: 30px;
+                width: 80px;
+            background-color: #039BE5;
+            display: inline-block;
+            line-height: 30px;
+            text-align: center;
+            position: absolute;
+            top: 10px;
+        }
+        .zhao{margin-left: 140px}
     </style>
 </head>
 <body>
@@ -173,10 +195,22 @@
                 </div>
             </div>
             <div class="two bo">
-                <div class="en bo"><input type="text" class="imput"></div>
-                <div class="biao bo"></div>
-                <div class="cen bo"></div>
+                <div class="en">enter some message..</div>
+                <div class="biao ">
+                    <div class="cama posi zhao" style=" background-image: url(../img/照相机.svg)"></div>
+                    <div class="cama posi " style="background-image: url(../img/胶卷.svg)"></div>
+                    <div class="cama posi " style="background-image: url(../img/文件夹.svg);"></div>
+                    <div class="cama posi " style="background-image: url(../img/flash.svg)"></div>
+                    <div class="cama pois " style="background-image: url(../img/鸟.svg)"></div>
+                    <div class="send posi ">Send</div>
+                    <br><hr>
+                </div>
+
+                <div class="cen bo">
+
+                </div>
             </div>
+
         </div>
 
 
