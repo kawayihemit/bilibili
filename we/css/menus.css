@@ -1,0 +1,42 @@
+#menus{
+    height: 50px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+#men{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#men-img{
+    background-image: url(../img/图标-微信.svg);
+
+}
+#men-img:hover{
+  background-image: url(../img/点图标-微信.svg);
+
+}
+#men-img1{
+    background-image: url(../img/通讯录.svg);
+
+}
+#men-img1:hover{
+    background-image: url(../img/点通讯录.svg);
+}
+#men-img2{
+    background-image: url(../img/发现.svg);
+
+}
+#men-img2:hover{
+    background-image: url(../img/点发现.svg);
+
+}
+#men-img3{
+    background-image: url(../img/我.svg);
+}
+#men-img3:hover{
+    background-image: url(../img/点我.svg);
+
+}
