@@ -1,0 +1,61 @@
+#species{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+}
+#species-content{
+    height: 30px;
+    display: flex;
+
+}
+
+#q{
+    height: 28px;
+    width: 60px;
+}
+
+#live{
+    height: 28px;
+   flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+#live1{
+    height: 28px;
+    width: 40px;
+    text-align: center;
+    color: #757575;
+}
+
+
+#rank{
+    height: 30px;
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#comprehensive{
+    height: 28px;
+    width: 80px;
+    text-align: center;
+    margin-top: 3px;
+    font-size: 14px;
+}
+#rank1{
+    height: 28px;
+    width: 80px;
+    justify-content: flex-end;
+
+}
+
+#rank2{
+    height:27px;
+    width: 35px;
+    font-size: 15px;
+    text-align: center;
+}
+#rank3{
+    font-size: 15px;
+}

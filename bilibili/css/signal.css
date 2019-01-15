@@ -1,0 +1,145 @@
+#signal{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+
+}
+#signal-left{
+    height: 40px;
+    width: 30%;
+    display: flex;
+    border-radius: 0 10px 0 0;
+    background-color: #616161;
+}
+
+
+#singal-area{
+    height: 25px;
+    width: 35px;
+    margin: 3px 0 0 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#singal-area div{
+    width: 4px;
+    margin-left: 3px;
+    border-radius: 1px;
+}
+#singal-area div:nth-child(1){
+    height: 5px;
+    background-color: #EEEEEE;
+}
+#singal-area div:nth-child(2){
+    height: 10px;
+    background-color: #EEEEEE;
+}
+#singal-area div:nth-child(3){
+    height: 15px;
+    background-color: #EEEEEE;
+}
+#singal-area div:nth-child(4){
+    height: 20px;
+    background-color: #757575;
+}
+
+#wifi{
+    height: 25px;
+    width: 35px;
+    background-image: url(../img/signal/WIFI.svg);
+    margin-top: 3px;
+}
+
+#number{
+    height: 30px;
+    width: 35px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+#signal-center{
+    height: 40px;
+    flex: 1;
+}
+
+
+#center2{
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle{
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/signal/circle-圆圈.svg);
+}
+#a{
+    height: 5px;
+    width: 46px;
+    background-color: gray;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+#signal-right{
+    height: 38px;
+    width: 30%;
+    background-color: #616161;
+    border-radius: 10px 0 0 0;
+    display: flex;
+ justify-content: flex-end;
+    align-items: center;
+}
+#remain{
+    height: 20px;
+    width: 40px;
+    color: white;
+    text-align: center;
+}
+#battery{
+    height: 13px;
+    width: 40px;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+#core{
+    height: 10px;
+    margin: 1px;
+    animation: charge 5s linear infinite;
+}
+#battery2 {
+    height: 3px;
+    width: 2px;
+    border-radius: 0 1px 1px 0;
+    border: 1px solid white;
+}
+@keyframes charge {
+    0%{
+        background-color: red;
+        width: 2px;
+    }
+    20%{
+        background-color: #FDD835;
+        width: 10px;
+    }
+    80%{
+        background-color: #9CCC65;
+        width: 25px;
+    }
+    100%{
+        background-color: #689F38;
+        width: 38px;
+    }
+}
+#time{
+    height: 20px;
+    width: 40px;
+    margin-left: 2px;
+}

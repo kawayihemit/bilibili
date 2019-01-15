@@ -2,7 +2,7 @@
 
     background-color: #E0E0E0;
     flex: 1;
-
+    overflow: scroll;
 }
 #query1{
     height: 50px;

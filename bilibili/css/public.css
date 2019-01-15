@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.border{
+    border: 1px solid red;
+}
+.back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -11,3 +11,11 @@
 justify-content: center;
 align-items: center;
 }
+.img{
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    justify-content: center
+}
