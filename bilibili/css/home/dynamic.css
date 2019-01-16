@@ -14,6 +14,7 @@
 .dynamic2{
     height: 240px;
     margin-top: 5px;
+    border-top: 1px solid #EEEEEE;
 }
 
 
@@ -50,7 +51,7 @@
 
 .a1{
     height: 17px;
-    width: 35px;
+    width: 40px;
     border-radius: 2px;
     background-color: #424242;
     font-size: 5px;
@@ -85,6 +86,7 @@
     height: 40px;
     width: 40px;
     display: flex;
+    border-radius: 50px;
 }
 .img2-2{
     height: 85px;
@@ -98,7 +100,7 @@
     text-overflow: ellipsis;
     text-align: center;
     font-size: 13px;
-    margin: 2px 0 0 2px;
+    margin: 2px 0 0 0;
 }
 .text1{
     height: 25px;
@@ -109,7 +111,7 @@
 
 .img2-3{
     height: 30px;
-    width: 30px;
+    width: 50px;
     background-color: #EEEEEE;
     border-radius: 10px;
     display: flex;
@@ -118,7 +120,7 @@
     margin-top: 8px;
 }
 .jian{
-    font-size: 15px;
+    font-size: 10px;
     color: #9E9E9E;
 }
 

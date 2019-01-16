@@ -1,0 +1,78 @@
+#species{
+    height: 80px;
+    background-color: white;
+    display: flex;
+        flex-flow: column;
+}
+#classification{
+    height: 40px;
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+}
+#square{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    margin: 5px 0 0 5px;
+ }
+#FGO{
+    height: 40px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+#FGO1{
+    height: 40px;
+    width: 40px;
+    display: flex;
+
+}
+#FGO1-1{
+    height: 30px;
+    width: 35px;
+    color: #EC407A;
+    margin: 5px 0 0 100px;
+    border-bottom: 2px solid #F06292;
+}
+
+#FGO2{
+     height:40px;
+     width: 40px;
+    display: flex;
+    flex-flow: column;
+ }
+
+.lin{
+    height: 3px;
+    width: 20px;
+    background-color: #BDBDBD;
+    margin-top: 2px;
+    align-items: flex-end;
+    justify-content: center;
+}
+#recommended{
+    height: 40px;
+    display: flex;
+
+}
+
+
+#recommend{
+    height: 35px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+#re{
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    margin-top: 3px;
+    color: #EC407A;
+}
+#co{
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
