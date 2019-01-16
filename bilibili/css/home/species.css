@@ -10,7 +10,7 @@
 
 }
 
-#q{
+.q{
     height: 28px;
     width: 60px;
 }
@@ -21,13 +21,20 @@
     display: flex;
     justify-content: space-around;
 }
-#live1{
+.live1{
     height: 28px;
     width: 40px;
     text-align: center;
-    color: #757575;
+
 }
 
+#live2{
+    height: 28px;
+    width: 40px;
+    text-align: center;
+    color: #e53935;
+    border-bottom: 2px solid #e53935 ;
+}
 
 #rank{
     height: 30px;

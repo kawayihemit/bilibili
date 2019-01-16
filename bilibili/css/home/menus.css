@@ -1,4 +1,43 @@
 #menus{
     height: 50px;
     background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+#menus1{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    flex-flow: column
+
+}
+.color{
+    font-size: 10%;
+    color: #EC407A;
+}
+.menus1-1{
+    height: 28px;
+    width: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+#menus2{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+
+}
+.menus2-1{
+    height: 60px;
+    width: 60px;
+    flex-flow: column;
+    margin-top: 15px;
+}
+#menus3{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    flex-flow: column
 }

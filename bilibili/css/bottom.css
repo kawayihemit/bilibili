@@ -1,5 +1,21 @@
 #bottom{
     height: 30px;
-    background-color: #4FC3F7;
+    background-color: #EEEEEE;
+    display: flex;
+}
 
+#bottom1{
+   flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom1{
+    height: 30px;
+    width: 30px;
+}
+
+
+.bottom2{
+    height: 30px;
+    width: 60px;
 }

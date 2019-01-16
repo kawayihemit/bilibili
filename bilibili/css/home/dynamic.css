@@ -3,24 +3,44 @@
     background-color: white;
     flex: 1;
     overflow: scroll;
-    display: flex;
-    flex-flow: column;
+
 
 }
+
+#dynamic1{
+    height: 140px;
+}
+
+.dynamic2{
+    height: 240px;
+    margin-top: 5px;
+}
+
+
 
 #dynamic-img{
     height: 140px;
     width: 300px;
     display: flex;
-    flex-flow: column;
+
 }
-#dynamic-img1{
+#img{
+
+    height: 140px;
+    width: 300px;
+    display: flex;
+
+
+}
+.dynamic-img1{
     height: 240px;
     width: 350px;
     display: flex;
     flex-flow: column;
+    margin-top: 10px;
+    box-shadow: 0px 0px 2px gray;
 }
-#img1{
+.img1{
     height: 150px;
     width: 350px;
     display: flex;
@@ -28,7 +48,7 @@
 }
 
 
-#a1{
+.a1{
     height: 17px;
     width: 35px;
     border-radius: 2px;
@@ -39,14 +59,14 @@
     color: #E0E0E0;
     opacity: .8;
 }
-#b{
+.b{
     height: 20px;
     width: 80px;
     text-align: center;
     color: #EEEEEE;
     font-size: 10%;
 }
-#c{
+.c{
     height: 20px;
     width: 60px;
     text-align: center;
@@ -55,65 +75,66 @@
 
 }
 
-#img2{
+.img2{
     height: 90px;
     width: 350px;
     display: flex;
 }
 
-#img2-1{
+.img2-1{
     height: 40px;
     width: 40px;
     display: flex;
 }
-#img2-2{
+.img2-2{
     height: 85px;
     flex: 1;
     display: flex;
     flex-flow: column   ;
 }
 
-#text{
+.text{
     height: 50px;
     text-overflow: ellipsis;
     text-align: center;
     font-size: 13px;
     margin: 2px 0 0 2px;
 }
-#text1{
+.text1{
     height: 25px;
     color: gray;
     font-size: 2px;
     margin-left: 3px;
 }
 
-#img2-3{
-    height: 40px;
-    width: 40px;
+.img2-3{
+    height: 30px;
+    width: 30px;
     background-color: #EEEEEE;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 8px;
 }
-#jian{
+.jian{
     font-size: 15px;
     color: #9E9E9E;
-
 }
 
 
 
-#img2-4{
+.img2-4{
     height: 20px;
     width: 20px;
     display: flex;
    flex-flow: column;
     justify-content: center;
     align-items: flex-end;
+    margin-top: 15px;
 }
 
-#point{
+.point{
     height: 5px;
     width: 5px;
     background-color: gray;
