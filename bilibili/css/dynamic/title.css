@@ -1,4 +1,3 @@
-
 #title{
     height: 50px;
     background-color: #F06292;
@@ -24,7 +23,7 @@
 #title2{
     height: 40px;
     width: 50px;
-     border-radius: 50px;
+    border-radius: 50px;
     margin-top: 5px;
     display: flex;
     background-image: url(../../img/species/四糸乃.jpg);
@@ -64,12 +63,12 @@
 
 #three{
     height: 30px;
-    width: 100px;
+    width: 40px;
     display: flex;
 
 }
 .title4{
     height: 30px;
     width:30px;
-    margin: 10px 0 0 13px;
+    margin-top: 10px;
 }

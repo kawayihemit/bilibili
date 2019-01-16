@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../css/public.css">
     <link rel="stylesheet" href="../css/signal.css">
     <link rel="stylesheet" href="../css/bottom.css">
-    <link rel="stylesheet" href="../css/home/dynamic.css">
-    <link rel="stylesheet" href="../css/home/menus.css">
-    <link rel="stylesheet" href="../css/home/species.css">
-    <link rel="stylesheet" href="../css/home/title.css">
+    <link rel="stylesheet" href="../css/dynamic/dynamic.css">
+    <link rel="stylesheet" href="../css/dynamic/menus.css">
+    <link rel="stylesheet" href="../css/dynamic/species.css">
+    <link rel="stylesheet" href="../css/dynamic/title.css">
 
 </head>
 <body>
@@ -28,10 +28,10 @@
                     <div id="number" >200 <br>k/s</div>
                 </div>
                 <div id="signal-center" >
-                        <div id="center2">
-                            <div id="circle" class="back" ></div>
-                            <div id="a" ></div>
-                        </div>
+                    <div id="center2">
+                        <div id="circle" class="back" ></div>
+                        <div id="a" ></div>
+                    </div>
                 </div>
                 <div id="signal-right" >
                     <div id="remain">80%</div>
@@ -53,51 +53,59 @@
                         <div id="red"></div>
                     </div>
                 </div>
-                <div id="title3" class=" center">
-                    <div id="search" >
-                        <div id="search-img" class="back"></div>
-                    </div>
+                <div id="channle" class="center">
+                    <div id="ch" >动态</div>
                 </div>
                 <div id="three" >
-                    <div  class="back title4" style="background-image: url(../img/species/游戏.svg)"></div>
-                    <div  class="back title4" style="background-image: url(../img/species/下载.svg)"></div>
-                    <div  class="back title4" style="background-image: url(../img/species/消息.svg)"></div>
+                    <div  class="back title4" style="background-image: url(../img/写影评.svg)"></div>
                 </div>
+
             </div>
             <div id="species" >
                 <div id="species-content" >
                     <div class="q" ></div>
                     <div id="live" >
-                        <div class="live1" >直播</div>
-                        <div id="live2" >推荐</div>
+                        <div class="live1" >视频</div>
+                        <div id="live2" >综合</div>
                         <div class="line1" >热门</div>
-                        <div class="line1" >追番</div>
                     </div>
                     <div class="q" ></div>
                 </div>
-                <div id="rank" >
-                    <div id="comprehensive" >综合</div>
-                    <div id="rank1" class=" center">
-                        <div id="rank2" class="back" style="background-image: url(../img/排行榜.svg)"></div>
-                        <div id="rank3" >热门</div>
+            </div>
+            <div id="dynamic" >
+                    <div id="dynamic1" class="center ">
+                        <div class="beside"></div>
+                        <div id="find" >
+                            <div id="find1" class="back "></div>
+                            <div id="find2" >查找精彩动态内容</div>
+                        </div>
+                        <div class="beside"></div>
+                    </div>
+                <div id="focus" >
+                    <div class="aka  center" >
+                        <div class="back aka1" style="background-image: url(../img/dynamic/纲吉.jpg)"></div>
+                        <div class="aka2">阿卡艾斯</div>
+                    </div>
+                    <div class="aka center">
+                        <div class="back aka1" style="background-image: url(../img/dynamic/斯卡哈.jpg)"></div>
+                        <div class="aka2">路易斯</div>
                     </div>
                 </div>
             </div>
-            <div id="dynamic" ></div>
             <div id="menus" >
-                <a href="home.html" style="text-decoration: none;border-bottom: 0px solid white">
+                <a href="home.html" >
                     <div id="menus1" class=" center">
-                    <div  class=" menus1-1 back" style="background-image: url(../img/menus/首页.svg)"></div>
-                    <div class=" menus1-1 color">首页</div>
-                </div>
+                        <div  class=" menus1-1 back" style="background-image: url(../img/menus/首页1.svg)"></div>
+                        <div class=" menus1-1 color1" ><a href="home.html">首页</a></div>
+                    </div>
                 </a>
                 <div  id="menus2" class="center">
-
-                   <a href="channel.html" style="color: black; text-decoration: none">    <div class="center menus2-1">
-                        <div  class=" menus1-1 back" style="background-image: url(../img/menus/频道.svg)"></div>
-                        <div class=" menus1-1 color1">频道</div>
-                         </div></a>
-
+                    <a href="channel.html" >
+                        <div class="center menus2-1">
+                            <div  class=" menus1-1 back" style="background-image: url(../img/menus/频道1.svg)"></div>
+                            <div class=" menus1-1 color">频道</div>
+                        </div>
+                    </a>
                     <div class="center menus2-1">
                         <div  class=" menus1-1 back" style="background-image: url(../img/menus/Tab_动态（未选中）.svg)">
                             <div id="yuan">3</div>
@@ -122,40 +130,3 @@
         </div>
 </body>
 </html>
-
-<script src="../js/jquery.js"></script>
-
-
-<script>
-
-
-    let home = 2;
-
-    let task;
-
-    function loadImg() {
-
-        if (home === 6) home = 1;
-        $("#img").css("background-image", 'url('+home+'.png)');
-        home++;
-    }
-
-    $(function(){ //当页面加载时
-
-
-
-        task = setInterval("loadImg()" , 1000); //启动定时器
-
-        $("#img").mouseover(function(){ //鼠标经过
-            window.clearInterval(task);
-        });
-
-        $("#img").mouseout(function(){ //鼠标移出
-            task = setInterval("loadImg()", 1000);
-        })
-
-        $("#dynamic").load("../page/list.html")
-
-    })
-
-</script>

@@ -1,0 +1,65 @@
+#dynamic{
+
+    background-color: white;
+    flex: 1;
+    overflow: scroll;
+}
+#dynamic1{
+    height: 45px;
+    display: flex;
+    border-top: 1px solid #EEEEEE;
+}
+
+#find{
+    height: 30px;
+    flex: 1;
+    display: flex;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+}
+
+#find1{
+    height: 26px;
+    width: 26px;
+    background-image: url(../../img/dynamic/搜索.svg);
+    margin: 2px 0 0 10px;
+}
+#find2{
+    height: 28px;
+    width: 150px;
+    font-size: 15px;
+    color: #BDBDBD;
+    margin: 3px 0 0 5px;
+}
+
+
+.beside{
+    height: 45px;
+    width: 15px;
+    display: flex;
+}
+#focus{
+    height: 80px;
+    display: flex;
+    border-top: 1px solid #EEEEEE;
+}
+
+.aka{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    flex-flow: column;
+}
+
+.aka1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.aka2{
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+}

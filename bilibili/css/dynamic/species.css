@@ -1,0 +1,37 @@
+#species{
+    height: 35px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+}
+#species-content{
+    height: 30px;
+    display: flex;
+}
+
+.q{
+    height: 28px;
+    width: 60px;
+}
+
+#live{
+    height: 28px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.live1{
+    height: 28px;
+    width: 40px;
+    text-align: center;
+
+}
+
+#live2{
+    height: 28px;
+    width: 40px;
+    text-align: center;
+    color: #e53935;
+    border-bottom: 2px solid #e53935 ;
+}
+
