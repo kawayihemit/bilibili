@@ -3,6 +3,7 @@
     background-color: white;
     flex: 1;
     overflow: scroll;
+
 }
 #dynamic1{
     height: 45px;
@@ -63,3 +64,79 @@
     font-size: 15px;
     text-align: center;
 }
+
+
+#topic{
+    height: 90px;
+    display: flex;
+    flex-flow: column;
+}
+#topic1{
+    height: 44px;
+    display: flex;
+}
+#topic2{
+    height: 44px;
+    display: flex;
+}
+
+#topic1-1{
+    height: 20px;
+    width: 120px;
+        margin-top: 10px;
+    border-right: 1px solid #BDBDBD;
+}
+#topic1-2{
+    height: 44px;
+    flex: 1;
+    display: flex;
+}
+#subscribe{
+    height: 20px;
+    width: 100px;
+    color: #212121;
+}
+#chinese{
+    height: 44px;
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+}
+#arrow{
+    height: 44px;
+    width: 46px;
+}
+
+
+
+#arrow1{
+
+}
+
+#chinese1{
+    display: flex;
+    height: 35px;
+    flex: 1;
+    color: #2196F3;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    align-items: center;
+}
+#colon{
+    height: 30px;
+    width: 10px;
+    color: #BDBDBD;
+    margin-bottom: 5px;
+}
+#chinese2{
+     height: 35px;
+     width: 100px;
+     text-overflow: ellipsis;
+     overflow: hidden;
+    white-space: nowrap;
+     font-size: 13px;
+     line-height: 35px;
+    color: #BDBDBD;
+ }
+
