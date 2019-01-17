@@ -1,265 +1,1 @@
-#dynamic{
-
-    background-color: white;
-    flex: 1;
-    overflow: scroll;
-
-}
-#dynamic1{
-    height: 45px;
-    display: flex;
-    border-top: 1px solid #EEEEEE;
-}
-
-#find{
-    height: 30px;
-    flex: 1;
-    display: flex;
-    border-radius: 20px;
-    background-color: #EEEEEE;
-}
-
-#find1{
-    height: 26px;
-    width: 26px;
-    background-image: url(../../img/dynamic/搜索.svg);
-    margin: 2px 0 0 10px;
-}
-#find2{
-    height: 28px;
-    width: 150px;
-    font-size: 15px;
-    color: #BDBDBD;
-    margin: 3px 0 0 5px;
-}
-
-
-.beside{
-    height: 45px;
-    width: 15px;
-    display: flex;
-}
-#focus{
-    height: 80px;
-    display: flex;
-    border-top: 1px solid #EEEEEE;
-}
-
-.aka{
-    height: 80px;
-    width: 80px;
-    display: flex;
-    flex-flow: column;
-}
-
-.aka1{
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    margin-top: 5px;
-}
-.aka2{
-    height: 30px;
-    width: 60px;
-    font-size: 15px;
-    text-align: center;
-}
-
-
-#topic{
-    height: 90px;
-    display: flex;
-    flex-flow: column;
-}
-#topic1{
-    height: 44px;
-    display: flex;
-}
-#topic2{
-    height: 44px;
-    display: flex;
-    display: flex;
-    justify-content: space-between;
-}
-
-.topic2-1{
-    display: flex;
-    height: 44px;
-    flex: 1;
-}
-
-.f{
-    height: 30px;
-    width: 100px;
-    background-color: #EEEEEE;
-    line-height: 30px;
-    text-align: center;
-    color: #757575;
-    font-size: 13px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-
-#topic1-1{
-    height: 20px;
-    width: 120px;
-        margin-top: 10px;
-    border-right: 1px solid #BDBDBD;
-}
-#topic1-2{
-    height: 44px;
-    flex: 1;
-    display: flex;
-}
-#subscribe{
-    height: 20px;
-    width: 100px;
-    color: #212121;
-}
-#chinese{
-    height: 44px;
-    flex: 1;
-    display: flex;
-    margin-left: 10px;
-}
-#arrow{
-    height: 44px;
-    width: 46px;
-}
-
-
-
-#arrow1{
-    height:25px;
-    width: 25px;
-}
-
-#chinese1{
-    display: flex;
-    height: 35px;
-    flex: 1;
-    color: #2196F3;
-    font-size: 15px;
-    text-align: center;
-    line-height: 35px;
-    align-items: center;
-}
-#colon{
-    height: 30px;
-    width: 10px;
-    color: #BDBDBD;
-    margin-bottom: 5px;
-}
-#chinese2{
-     height: 35px;
-     width: 100px;
-     text-overflow: ellipsis;
-     overflow: hidden;
-    white-space: nowrap;
-     font-size: 13px;
-     line-height: 35px;
-    color: #BDBDBD;
- }
-
-
-#dynamic2{
-    height: 350px;
-    display: flex;
-    flex-flow: column;
-}
-#dynamic2-1{
-     height: 90px;
-}
-
-.img2{
-    height: 60px;
-    width: 350px;
-    display: flex;
-}
-
-.img2-1{
-    height: 40px;
-    width: 40px;
-    display: flex;
-    border-radius: 50px;
-    margin: 10px 0 0 5px;
-}
-.img2-2{
-    height: 85px;
-    flex: 1;
-    display: flex;
-    flex-flow: column ;
-}
-
-.text{
-    height: 20px;
-    color: #E91E63;
-    font-size: 15px;
-    margin: 10px 0 0 5px;
-}
-.text1{
-    height: 25px;
-    color: gray;
-    font-size: 2px;
-    margin: 2px 0 0 5px;
-}
-
-.jian{
-    font-size: 10px;
-    color: #9E9E9E;
-}
-
-
-
-.img2-4{
-    height: 20px;
-    width: 20px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 15px;
-}
-
-.point{
-    height: 5px;
-    width: 5px;
-    background-color: gray;
-    margin-top: 2px;
-}
-
-#black{
-    height: 30px;
-    display: flex;
-}
-
-#sister{
-    height: 30px;
-    width: 200px;
-    color: #039BE5;
-    font-size: 16px;
-    line-height: 30px;
-    margin-left: 8px;
-}
-
-#dynamic2-2{
-    height: 150px;
-    display: flex;
-    flex-flow: column;
-}
-
-.dynamic2{
-    height: 240px;
-    margin-top: 5px;
-    border-top: 2px solid #EEEEEE;
-}
-
-
-
-
-#dynamic2-3{
-    height: 100px;
-}
-
+#dynamic{    background-color: white;    flex: 1;    overflow: scroll;}#dynamic1{    height: 45px;    display: flex;    border-top: 1px solid #EEEEEE;}#find{    height: 30px;    flex: 1;    display: flex;    border-radius: 20px;    background-color: #EEEEEE;}#find1{    height: 26px;    width: 26px;    background-image: url(../../img/dynamic/搜索.svg);    margin: 2px 0 0 10px;}#find2{    height: 28px;    width: 150px;    font-size: 15px;    color: #BDBDBD;    margin: 3px 0 0 5px;}.beside{    height: 45px;    width: 15px;    display: flex;}#focus{    height: 80px;    display: flex;    border-top: 1px solid #EEEEEE;}.aka{    height: 80px;    width: 80px;    display: flex;    flex-flow: column;}.aka1{    height: 50px;    width: 50px;    border-radius: 50px;    margin-top: 5px;}.aka2{    height: 30px;    width: 60px;    font-size: 15px;    text-align: center;}#topic{    height: 90px;    display: flex;    flex-flow: column;}#topic1{    height: 44px;    display: flex;}#topic2{    height: 44px;    display: flex;    display: flex;    justify-content: space-between;}.topic2-1{    display: flex;    height: 44px;    flex: 1;}.f{    height: 30px;    width: 100px;    background-color: #EEEEEE;    line-height: 30px;    text-align: center;    color: #757575;    font-size: 13px;    text-overflow: ellipsis;    overflow: hidden;    white-space: nowrap;}#topic1-1{    height: 20px;    width: 120px;        margin-top: 10px;    border-right: 1px solid #BDBDBD;}#topic1-2{    height: 44px;    flex: 1;    display: flex;}#subscribe{    height: 20px;    width: 100px;    color: #212121;}#chinese{    height: 44px;    flex: 1;    display: flex;    margin-left: 10px;}#arrow{    height: 44px;    width: 46px;}#arrow1{    height:25px;    width: 25px;}#chinese1{    display: flex;    height: 35px;    flex: 1;    color: #2196F3;    font-size: 15px;    text-align: center;    line-height: 35px;    align-items: center;}#colon{    height: 30px;    width: 10px;    color: #BDBDBD;    margin-bottom: 5px;}#chinese2{     height: 35px;     width: 100px;     text-overflow: ellipsis;     overflow: hidden;    white-space: nowrap;     font-size: 13px;     line-height: 35px;    color: #BDBDBD; }#dynamic2{    height: 320px;    display: flex;    flex-flow: column;}.dynamic2-1{     height: 90px;}.img2{    height: 60px;    width: 350px;    display: flex;}.img2-1{    height: 40px;    width: 40px;    display: flex;    border-radius: 50px;    margin: 10px 0 0 5px;}.img2-2{    height: 85px;    flex: 1;    display: flex;    flex-flow: column ;}.text{    height: 20px;    color: #E91E63;    font-size: 15px;    margin: 10px 0 0 5px;}.text1{    height: 25px;    color: gray;    font-size: 2px;    margin: 2px 0 0 5px;}.jian{    font-size: 10px;    color: #9E9E9E;}.img2-4{    height: 20px;    width: 20px;    display: flex;    flex-flow: column;    justify-content: center;    align-items: flex-end;    margin-top: 15px;}.point{    height: 5px;    width: 5px;    background-color: gray;    margin-top: 2px;}.black{    height: 30px;    display: flex;}#sister{    height: 30px;    width: 200px;    color: #039BE5;    font-size: 16px;    line-height: 30px;    margin-left: 8px;}#dynamic2-2{    height: 200px;    display: flex;    flex-flow: column;}.dynamic2{    height: 240px;    margin-top: 5px;    border-top: 2px solid #EEEEEE;}.img1{    height: 150px;    width: 350px;    display: flex;    align-items: flex-end;    margin-left: 10px;}.a1{    height: 17px;    width: 40px;    border-radius: 2px;    background-color: #424242;    font-size: 5px;    text-align: center;    margin: 0 0 3px 5px;    color: #E0E0E0;    opacity: .8;}.b{    height: 20px;    width: 80px;    text-align: center;    color: #EEEEEE;    font-size: 10%;}.c{    height: 20px;    width: 60px;    text-align: center;    color: #EEEEEE;    font-size: 10%;}#bask{    height: 30px;    line-height: 30px;}.dynamic2-3{    height: 50px;    display: flex;    justify-content: space-between;}.forward{    height: 40px;    width: 100px;}.forward1{    height: 30px;    width: 30px;    line-height: 30px;    text-align: center;}#dynamic3{    height: 300px;    display: flex;    flex-flow: column;}#fgo{    height: 25px;    width: 400px;    display: flex;    font-size: 16px;    line-height: 30px;    margin-left: 8px;}#blank{    height: 30px;    display: flex;}#activity{    height: 60px;    display: flex;    flex-flow: column;}#activity1{    height: 30px;    display: flex;}.activity1-1{    height: 20px;    width: 20px;    background-image: url(../../img/dynamic/菱形.svg);}.activity1-2{    height: 30px;    width: 50px;    font-size: 10px;    line-height: 30px;    text-align: center;}#activity2{    height: 30px;    display: flex;}
