@@ -3,7 +3,7 @@
     position: fixed;
     height: 100%;
     width: 60%;
-    background-color: #4d4d4d;
+
     transition: all .5s;
     display: flex;
     flex-flow: column;
@@ -198,7 +198,28 @@
 
 #bo{
     height: 40px;
+    display: flex;
 }
-#kong{
-    height: 30px;
+.bo1{
+    height: 38px;
+    flex: 1;
+    display: flex;
 }
+.b2{
+    height: 23px;
+    width: 23px;
+    display: flex;
+        border-radius: 50px;
+    border: 1px solid #424242;
+}
+.b3{
+    height: 38px;
+    width: 28px;
+    display: flex;
+    color: #424242;
+    line-height: 38px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 5px;
+}
+

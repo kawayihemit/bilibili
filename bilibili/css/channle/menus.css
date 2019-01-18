@@ -2,6 +2,14 @@
     height: 50px;
     background-color: #F5F5F5;
     display: flex;
+
+    position: relative;
+}
+#kongzhi{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: absolute;
     justify-content: space-between;
 }
 #menus1{
@@ -16,13 +24,15 @@
     color: #EC407A;
 }
 .color1{
-    font-size: 10px;
+    font-size: 10%;
+
 }
 .menus1-1{
     height: 28px;
     width: 30px;
     text-align: center;
     margin-top: 2px;
+    position: relative;
 }
 
 
@@ -37,7 +47,6 @@
     width: 60px;
     flex-flow: column;
     margin-top: 15px;
-    position: relative;
 }
 #menus3{
     height: 60px;
@@ -45,13 +54,14 @@
     margin-right: 20px;
     flex-flow: column
 }
+
 #yuan{
     height: 15px;
     width: 15px;
     background-color: red;
     border-radius: 50px;
     position: absolute;
-    left: 35px;
+    left: 20px;
     color: white;
     font-size: 2px;
     text-align: center;
