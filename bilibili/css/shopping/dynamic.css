@@ -130,7 +130,7 @@
 }
 #dynamic5-1{
     height: 48px;
-    width: 400px;
+    width: 360px;
     display: flex;
 
 }
@@ -212,7 +212,7 @@
 }
 .word{
     height: 30px;
-    width: 30px;
+    width: 23px;
     line-height: 30px;
     text-align: center;
     color: #E91E63;
@@ -223,4 +223,65 @@
     width: 70px;
     color: #9E9E9E;
     font-size: 10px;
+}
+
+
+#dynamic7{
+    height: 300px;
+    display:flex;
+}
+#dynamic7-1{
+    height: 290px;
+    width: 310px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0 0 5px #BDBDBD;
+    margin-top: 8px;
+}
+#dynamic7-2{
+    height: 215px;
+    width: 310px;
+    background-image: url(../../img/members/兵马俑.png);
+    display: flex;
+}
+#dynamic7-3{
+    display: flex;
+    height: 35px;
+    width: 310px;
+    line-height:35px;
+    text-align: center;
+    font-size: 15px;
+}
+#dynamic7-4{
+    height: 30px;
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+#qian{
+    height: 40px;
+    width: 80px;
+}
+#xiang{
+    height: 40px;
+    width: 80px;
+}
+#qi{
+    height: 13px;
+    width: 13px;
+    color: #E91E63;
+    line-height: 13px;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.ge{
+    height: 13px;
+    width: 13px;
+    color: #E91E63;
+    line-height: 13px;
+    align-items: center;
+    font-size: 10px;
+    margin: 10px 0 0 10px;
 }

@@ -5,7 +5,12 @@
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    transition: all .5s;
 }
 ::-webkit-scrollbar{
     display: none;
 }
+
+
+
+
