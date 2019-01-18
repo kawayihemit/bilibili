@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="../css/home/menus.css">
     <link rel="stylesheet" href="../css/home/species.css">
     <link rel="stylesheet" href="../css/home/title.css">
-
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
 </head>
 <body>
         <div id="container">
@@ -224,18 +229,21 @@
                         <div  class=" menus1-1 back" style="background-image: url(../img/menus/频道.svg)"></div>
                         <div class=" menus1-1 color1">频道</div>
                          </div></a>
-
+                    <a href="dynamic.html" >
                     <div class="center menus2-1">
                         <div  class=" menus1-1 back" style="background-image: url(../img/menus/Tab_动态（未选中）.svg)">
                             <div id="yuan">3</div>
                         </div>
                         <div class=" menus1-1 color1">动态</div>
                     </div>
+                    </a>
                 </div>
+                <a href="shopping.html">
                 <div id="menus3" class="center ">
                     <div  class=" menus1-1 back" style="background-image: url(../img/menus/购物.svg)"></div>
                     <div class=" menus1-1 color1">购物</div>
                 </div>
+                </a>
             </div>
             <div id="bottom" >
                 <div class="bottom2"></div>
@@ -272,14 +280,14 @@
 
 
 
-        task = setInterval("loadImg()" , 1000); //启动定时器
+        task = setInterval("loadImg()" , 2000); //启动定时器
 
         $("#img").mouseover(function(){ //鼠标经过
             window.clearInterval(task);
         });
 
         $("#img").mouseout(function(){ //鼠标移出
-            task = setInterval("loadImg()", 1000);
+            task = setInterval("loadImg()", 2000);
         })
 
 

@@ -1,3 +1,4 @@
+
 #title{
     height: 50px;
     background-color: #F06292;
@@ -6,7 +7,6 @@
 
     justify-content: space-between;
 }
-
 #two{
     height: 50px;
     width: 70px;
@@ -20,16 +20,6 @@
     flex-flow: column;
     justify-content: center;
 }
-
-
-.line{
-    height: 3px;
-    width: 10px;
-    background-color: white;
-    margin-top: 5px;
-}
-
-
 
 #title2{
     height: 40px;
@@ -50,36 +40,36 @@
     top: -1px;
 }
 
-#title3{
+.line{
+    height: 3px;
+    width: 10px;
+    background-color: white;
+    margin-top: 5px;
+}
+#channle{
     height: 50px;
     flex: 1;
-    display: flex;
 
 }
-#search{
-    height: 25px;
-    width: 90%;
-    background-color: #EEEEEE;
 
-    border-radius: 10px;
-}
-
-#search-img{
-    height: 25px;
-    width: 25px;
-    background-image: url(../../img/species/搜索1.svg);
-    margin-left: 5px;
+#ch{
+    height: 40px;
+    width: 60px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
 
 
 #three{
     height: 30px;
-    width: 150px;
+    width: 100px;
     display: flex;
-    justify-content: space-around;
+
 }
 .title4{
-    height: 25px;
-    width:25px;
-    margin-top: 10px;
+    height: 20px;
+    width:20px;
+    margin: 12px 0 0 25px;
 }
