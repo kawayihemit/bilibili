@@ -20,9 +20,7 @@
 .container-end {
     left: 60%;
 }
-#top{
-    height: 40px;
-}
+
 #center{
     flex: 1;
     overflow: scroll;
@@ -33,6 +31,8 @@
     background-color: #F06292;
     display: flex;
     flex-flow: column;
+    background-image: url(../../img/chou/bilibili.svg);
+
 }
 #center1-1{
     height: 70px;

@@ -34,7 +34,7 @@
 
 #title2{
     height: 40px;
-    width: 50px;
+    width: 40px;
     border-radius: 50px;
     margin-top: 5px;
     display: flex;
@@ -48,7 +48,7 @@
     border-radius: 50px;
     background-color: red;
     position: absolute;
-    left: 50px;
+    left: 35px;
     top: -1px;
 }
 
@@ -68,7 +68,7 @@
 
 #three{
     height: 30px;
-    width: 100px;
+    width: 60px;
     display: flex;
 
 }
