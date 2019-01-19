@@ -4,9 +4,10 @@
     background-color: #F06292;
     display: flex;
     flex-flow: row;
-
+    position: relative;
     justify-content: space-between;
 }
+
 #two{
     height: 50px;
     width: 70px;
@@ -19,7 +20,18 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
+
 }
+
+
+.line{
+    height: 3px;
+    width: 10px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+
 
 #title2{
     height: 40px;
@@ -28,7 +40,8 @@
     margin-top: 5px;
     display: flex;
     background-image: url(../../img/species/四糸乃.jpg);
-    position: relative;
+    position: absolute;
+    left: 15px;
 }
 #red{
     height: 10px;
@@ -40,26 +53,15 @@
     top: -1px;
 }
 
-.line{
-    height: 3px;
-    width: 10px;
-    background-color: white;
-    margin-top: 5px;
-}
-#channle{
+#title3{
     height: 50px;
     flex: 1;
+    display: flex;
 
 }
 
-#ch{
-    height: 40px;
-    width: 60px;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-}
+
+
 
 
 #three{
@@ -72,4 +74,20 @@
     height: 20px;
     width:20px;
     margin: 12px 0 0 25px;
+}
+#ch{
+    height: 40px;
+    width: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+#ch{
+    height: 40px;
+    width: 60px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
