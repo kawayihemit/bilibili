@@ -153,28 +153,31 @@
 .dynamic6{
     height: 330px;
     display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 .dynamic6-1{
     height: 330px;
-    width: 150px;
+    width: 180px;
     margin-left: 5px;
     display: flex;
     flex-flow: column;
     box-shadow: 0 0 5px #BDBDBD;
+    border: 1px solid #9E9E9E;
 }
 .dynamic6-2{
     height: 240px;
-    width: 150px;
+    width: 180px;
     display: flex;
 }
 .dynamic6-3{
     height: 50px;
-    width: 150px;
+    width: 180px;
     font-size: 13px;
 }
 .dynamic6-4{
     height: 30px;
-    width: 150px;
+    width: 180px;
     display: flex;
 }
 .open{
@@ -190,7 +193,7 @@
 }
 .dynamic6-5{
     height: 50px;
-    width: 150px;
+    width: 180px;
     display: flex;
 }
 .d5-1{
@@ -205,6 +208,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-left: 20px;
 }
 .money{
     height: 20px;
